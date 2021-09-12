@@ -2,10 +2,12 @@
 
 dwmblocks &
 feh --recursive --randomize --bg-fill ~/Pictures/wallpapers/* &
+# nm-applet --indicator &
 nm-applet &
 picom -b
 xfce4-power-manager &
 vmware-user &
+# clash &
 xset r rate 300 50 
 setxkbmap -option caps:escape
 # swap escape and caps
@@ -27,7 +29,10 @@ xrdb ~/.Xresources
 # Compositor
 
 # Hide mouse when typing
-# xbanish &
+xbanish &
+
+# helps with puls audio
+# pasystray &
 
 # Screenshots
 # flameshot &
@@ -36,3 +41,4 @@ xrdb ~/.Xresources
 # blueman-applet &
 
 # TODO:Easy file sharing pcloudcc
+# pcloudcc -u balabala -m ~/Cloud -d

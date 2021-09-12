@@ -14,3 +14,5 @@ export HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/history"
 
 export http_proxy=http://192.168.10.1:7890
 export https_proxy=http://192.168.10.1:7890
+# export http_proxy=http://127.0.0.1:7890
+# export https_proxy=http://127.0.0.1:7890
