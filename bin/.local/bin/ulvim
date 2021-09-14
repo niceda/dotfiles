@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+cd ~/.local/share/lunarvim/lvim
+git fetch upstream
+git merge upstream/rolling
