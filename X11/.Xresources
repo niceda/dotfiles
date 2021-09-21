@@ -7,7 +7,7 @@ xterm*disallowedWindowOps: 20,21,SetXProp
 
 ! colors
 
-! special
+/* ! special */
 *.foreground:   #B8BEC9
 *.background:   #212121
 *.cursorColor:  #ECEFF4
@@ -16,7 +16,8 @@ xterm*disallowedWindowOps: 20,21,SetXProp
 /* *.color257: 15#ebdbb2 */
 
 ! black
-*.color0:       #4C566A
+/* *.color0:       #4C566A */
+*.color0:       #000000
 *.color8:       #6C768A
 
 ! red
