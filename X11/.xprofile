@@ -24,9 +24,12 @@ xrdb ~/.Xresources
 # xset s noblank
 
 # For QT Themes
-# export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 # Compositor
+
+# mouse speed
+imwheel &
 
 # Hide mouse when typing
 xbanish &
