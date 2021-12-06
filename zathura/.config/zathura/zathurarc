@@ -3,6 +3,7 @@ set incremental-search true
 set guioptions ""
 set selection-clipboard clipboard
 map p print
+## set synctex-editor-command "lvim --remote-silent +%{line} %{input}"
 ## set adjust-open "width"
 ## set page-padding 1
 
