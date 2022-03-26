@@ -7,12 +7,11 @@ nm-applet &
 picom -b
 xfce4-power-manager &
 vmware-user &
-clash &
+# clash &
 xset r rate 300 50 
 setxkbmap -option caps:escape
 # swap escape and caps
 # setxkbmap -option caps:swapescape
-fcitx5 &
 xrdb ~/.Xresources
 
 # Monitor Config
