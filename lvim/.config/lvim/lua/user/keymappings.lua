@@ -4,22 +4,31 @@ lvim.keys = {
 		["jk"] = false,
 		["kj"] = false,
 		["jj"] = false,
-		["kk"] = false,
+		["<A-j>"] = false,
+		["<A-k>"] = false,
+		["<A-Up>"] = false,
+		["<A-Down>"] = false,
+		["<A-Left>"] = false,
+		["<A-Right>"] = false,
 	},
 
 	normal_mode = {
 		["<S-l>"] = false,
 		["<S-h>"] = false,
-
+		["<A-j>"] = false,
+		["<A-k>"] = false,
 		["<C-n>"] = ":BufferLineCycleNext<CR>",
 		["<C-p>"] = ":BufferLineCyclePrev<CR>",
-
 		["Y"] = "y$",
-
 		["<F5>"] = ":call CompileRunGcc()<CR>",
+		["]d"] = "<cmd>lua vim.diagnostic.goto_next()<cr>",
+		["[d"] = "<cmd>lua vim.diagnostic.goto_prev()<cr>",
+		["<esc><esc>"] = "<cmd>nohlsearch<cr>",
 	},
 
 	visual_mode = {
+		["<A-j>"] = false,
+		["<A-k>"] = false,
 		["p"] = '"_dP',
 		-- ["P"] = '"_dP',
 	},
