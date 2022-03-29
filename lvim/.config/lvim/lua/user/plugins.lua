@@ -55,4 +55,9 @@ lvim.plugins = {
 	--   event = "BufRead",
 	-- },
 	{ "p00f/nvim-ts-rainbow" },
+	{ "folke/zen-mode.nvim",
+    config = function()
+      require("user.zen-mode")
+    end
+  },
 }

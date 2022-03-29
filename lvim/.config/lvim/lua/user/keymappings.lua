@@ -59,6 +59,7 @@ lvim.builtin.telescope.defaults.mappings = {
 lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
 lvim.builtin.which_key.mappings["h"] = nil
 lvim.builtin.which_key.mappings["<CR>"] = { "<cmd>nohlsearch<CR>", "No Highlight" }
+lvim.builtin.which_key.mappings["z"] ={ "<cmd>ZenMode<CR>", "Zen" }
 
 lvim.builtin.treesitter.textobjects = {
 	-- mChange
