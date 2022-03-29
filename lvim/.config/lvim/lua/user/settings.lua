@@ -1,3 +1,4 @@
+lvim.builtin.treesitter.rainbow.enable = true
 vim.opt.spelllang = "en,cjk"
 
 if vim.fn.has("wsl") == 1 then

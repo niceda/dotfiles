@@ -54,4 +54,5 @@ lvim.plugins = {
 	--   "ggandor/lightspeed.nvim",
 	--   event = "BufRead",
 	-- },
+	{ "p00f/nvim-ts-rainbow" },
 }
