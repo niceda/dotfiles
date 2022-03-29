@@ -1,5 +1,1 @@
-!lazygit/.config/lazygit
-lazygit/.config/lazygit/*
-!lazygit/.config/lazygit/config.yml
-!lazygit/.config/lazygit/config-default.yml
 **/*.pyc
